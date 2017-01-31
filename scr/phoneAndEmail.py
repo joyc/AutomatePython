@@ -20,7 +20,6 @@ emailRegex = re.compile(r'''(
     (\.[a-zA-Z]{2,4})       # dot-something
     )''', re.VERBOSE)
 
-
 # TODO: Find matches in clipboard text.
 
 # TODO: Copy results to the clipboard.
