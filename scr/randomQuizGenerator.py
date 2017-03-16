@@ -23,8 +23,9 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 'Montpelier', 'Virginia': 'Richmond', 'Washington': 'Olympia',
 'West Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
 capitalsItems = list(capitals.items())
+
 # Generate 5 quiz files.
-for quizNum in range(35):
+for quizNum in range(5):
 
     # Create the quiz and answer key files.
     quizFile = open('capitalsquiz%s.txt' % (quizNum + 1), 'w')
