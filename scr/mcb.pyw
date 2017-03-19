@@ -1,4 +1,5 @@
-#! python3
+#!/usr/bin/env python3
+#  -*- coding: utf-8 -*-
 # mcb.pyw - Saves and loads pieces of text to the clipboard.
 # Usage: py.exe mcb.pyw save <keyword> - Saves clipboard to keyword.
 #        py.exe mcb.pyw <keyword> - Loads keyword to clipboard.
