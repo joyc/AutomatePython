@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import re
 
 # create txt file.
 textFile = open('C:\\Python\\MyScripts\\madlibs.txt', 'w')
