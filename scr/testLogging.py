@@ -1,9 +1,9 @@
 #! python3
 # coding=utf-8
 import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - \
+logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - \
                                                 %(message)s')
-
+# logging.disable(logging.DEBUG)
 def factorial(n):
     logging.debug('Start of factorial(%s).' %(n))
     total = 1
